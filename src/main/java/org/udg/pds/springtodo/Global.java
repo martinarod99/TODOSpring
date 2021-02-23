@@ -103,6 +103,9 @@ public class Global {
                 add(tag.getId());
             }});
             userService.register("user", "user@hotmail.com", "0000");
+            userService.register("member1", "member1@hotmail.com", "3333");
+            userService.register("member2", "member2@hotmail.com", "4444");
+            userService.register("member3", "member3@hotmail.com", "5555");
         }
 
     }
